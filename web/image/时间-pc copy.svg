@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="41px" viewBox="0 0 30 41" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52 (66869) - http://www.bohemiancoding.com/sketch -->
+    <title>时间-pc copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <text id="text-1" font-family=".SFNSDisplay, .SF NS Display" font-size="42" font-weight="normal" line-spacing="42" fill="#FFFFFF">
+            <tspan x="4" y="41">2</tspan>
+        </text>
+        <filter x="-136.4%" y="-71.4%" width="372.7%" height="242.9%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="10" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.51372549   0 0 0 0 0.525490196   0 0 0 0 1  0 0 0 0.4 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="时间-pc-copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M2,0 L28,0 C29.1045695,-2.02906125e-16 30,0.8954305 30,2 L30,18 C30,19.1045695 29.1045695,20 28,20 L2,20 C0.8954305,20 1.3527075e-16,19.1045695 0,18 L0,2 C-1.3527075e-16,0.8954305 0.8954305,2.02906125e-16 2,0 Z" id="Rectangle-14" fill="#000000" opacity="0.565457589"></path>
+        <path d="M2,21 L28,21 C29.1045695,21 30,21.8954305 30,23 L30,39 C30,40.1045695 29.1045695,41 28,41 L2,41 C0.8954305,41 1.3527075e-16,40.1045695 0,39 L0,23 C-1.3527075e-16,21.8954305 0.8954305,21 2,21 Z" id="Rectangle-14-Copy" fill="#000000" opacity="0.565457589"></path>
+        <g id="2" fill="#FFFFFF" fill-opacity="1">
+            <use filter="url(#filter-2)" xlink:href="#text-1"></use>
+            <use xlink:href="#text-1"></use>
+        </g>
+    </g>
+</svg>

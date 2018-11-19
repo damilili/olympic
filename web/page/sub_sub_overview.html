@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=9">
+    <title>总览</title>
+
+    <script>
+
+        window.onload = function drawcard() {
+            var canvas = document.getElementById("canvas_overviewcard");
+            var cxt = canvas.getContext("2d");
+            cxt.fillStyle = "#fff";
+            cxt.strokeStyle = "#fff";
+            cxt.lineJoin = "round";
+            cxt.lineWidth = 20;
+
+            cxt.moveTo(35, 15);
+            cxt.lineTo(canvas.width - 35, 15);
+            cxt.lineTo(canvas.width - 15, canvas.height - 15);
+            cxt.lineTo(15, canvas.height - 15);
+            cxt.closePath();
+            cxt.fill();
+
+
+        }
+    </script>
+</head>
+<body>
+<div>
+
+    <canvas id="canvas_overviewcard" style="width: 146px;height: 36px ;background: #5dffe7"></canvas>
+
+</div>
+</body>
+
+</html>

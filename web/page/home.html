@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>冬奥会工程进度管理系统</title>
+
+    <link rel="stylesheet" type="text/css" href="../css/homestyle.css">
+    <script type="text/javascript" src="../js/homejs.js">
+    </script>
+
+    <link rel="icon" href="../image/icon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="../image/icon.ico" type="image/x-icon"/>
+
+</head>
+
+<body style="background-image: url(../image/Rectangle6.png);padding: 0;border: 0;margin: 0;background-size: cover;-moz-background-size: cover;">
+<!--顶部 logo、标题、倒计时-->
+<div style="margin:0;background-image: url(../image/Group4.png);overflow: auto;position: relative;height: 60px;width: 100%;overflow-x:hidden;overflow-y: hidden;background-size: cover;-moz-background-size: cover;">
+    <img src="../image/b7003af33a87e950e8b2b0901b385343faf2b4a1.png" height="48px" width="40px"
+         style="position: absolute;left: 0;margin-top: 6px;margin-left: 20px">
+    <img src="../image/Bitmap.png" height="48px" width="40px" style="position: absolute;left: 90px;margin-top: 6px;">
+    <div style="background: transparent; height:auto; width:530px;text-align: center; line-height: 60px; float: right;margin-right: 30px;position: relative;overflow-y:hidden">
+        <div style="width: 30%;height: 100%;margin: 0;padding: 0;background: transparent;text-align: center;position: relative">
+            <a style="font-size: 12px; color: #83B4FF;text-align: justify;line-height: 18px;margin-top: 11px;position: absolute">竣&nbsp&nbsp&nbsp工</a>
+            <a style="font-size: 12px;color: #83B4FF;text-align: justify;line-height: 18px;margin-top: 30px;position: absolute">倒计时</a>
+        </div>
+        <div style="width: 70%;margin-left: 30%;background: transparent;margin-top: 0;margin-bottom: 0;padding: 0">
+            <div style="margin: 0">
+                <a id="day" class="time">0</a>
+                <a class="timetag">天</a>
+                <a id="hour" class="time">00</a>
+                <a class="timetag">时</a>
+                <a id="min" class="time">00</a>
+                <a class="timetag">分</a>
+                <a id="second" class="time">00</a>
+                <a class="timetag">秒</a>
+            </div>
+        </div>
+    </div>
+    <div style="margin-left: 120px;margin-right: 320px;background: transparent;width:auto;height: 100%;text-align: center;top: 0;margin-top: 0;line-height: 60px;overflow-y: hidden "
+         align="center">
+        <p style="color: white;font-style: normal;margin: 0;size: 24px;font-size: 24px"> 北京市2022年冬奥会工程建设信息管理平台 </p>
+    </div>
+</div>
+<div style="width: 100%;height: 64px;background: transparent;position: relative;text-align: center;margin: 0;padding: 0">
+    <div id="mainMenu" style="background: #353b51;text-align: center;width: 100%;height: auto;position: absolute">
+        <a class="ks" id="button0" onclick="switchPage(this,'../home?subpage=overview')">总览</a>
+        <a class="ks" id="button1" onclick="switchPage(this,'../home?subpage=process')">进度监管</a>
+        <a class="ks" id="button2" onclick="switchPage(this,'../home?subpage=investment')">投资信息</a>
+        <a class="ks" id="button3" onclick="switchPage(this,'../home?subpage=safe')">安全质量</a>
+        <a class="ks" id="button4" onclick="switchPage(this,'../home?subpage=video')">视频监控</a>
+        <a class="ks" id="button5" onclick="switchPage(this,'sub_game.html')">赛时保障</a>
+        <a class="ks" id="button6" onclick="switchPage(this,'sub_scenic.html')">科技创新</a>
+        <a class="ks" id="button7" onclick="switchPage(this,'sub_controll.html')">协调管控</a>
+    </div>
+    <div style="width: 12px;height: 3px;background: #50E3C2;position: absolute;margin: 0 auto;top: 45px;"
+         id="indicator"></div>
+</div>
+<iframe id="mainframe" width="100%" height="900px" frameborder="0" border="0"
+        style="background-color: transparent;padding: 0;top: 0;overflow-y: hidden ;overflow-x: hidden ;position: absolute;margin-top: 124px"
+        scrolling="no">
+</iframe>
+</body>
+</html>

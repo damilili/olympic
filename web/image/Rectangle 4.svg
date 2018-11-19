@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="132px" height="36px" viewBox="0 0 132 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52 (66869) - http://www.bohemiancoding.com/sketch -->
+    <title>Rectangle 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="-45.732805%" x2="50%" y2="118.524342%" id="linearGradient-1">
+            <stop stop-color="#02092A" stop-opacity="0.539034194" offset="0%"></stop>
+            <stop stop-color="#030C2F" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" fill-opacity="0.9" opacity="0.300000012">
+        <g id="180928_P4-进度监管3" transform="translate(-470.000000, -114.000000)" fill="url(#linearGradient-1)">
+            <g id="表1" transform="translate(330.000000, 114.000000)">
+                <g id="tab/pc-copy-2" transform="translate(140.000000, 0.000000)">
+                    <path d="M2.00052174,8.00210523e-16 L115.333855,-3.55271368e-15 C116.948658,-9.58628238e-15 118.405085,0.970950707 119.026163,2.46153846 L131.846676,33.2307692 C132.27151,34.2503718 131.789355,35.4213194 130.769753,35.8461538 C130.526012,35.9477123 130.264574,36 130.000522,36 L16.6671884,36 C15.052385,36 13.5959589,35.0290493 12.9748807,33.5384615 L0.154367896,2.76923077 C-0.270466527,1.74962815 0.211688358,0.578680577 1.23129097,0.153846154 C1.47503131,0.0522876784 1.73646971,1.3807732e-15 2.00052174,1.33226763e-15 Z" id="Rectangle-4"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
