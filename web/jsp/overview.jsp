@@ -54,7 +54,7 @@
             <div id="contentdes" style="width:100%;height: 131px;background: #2e3655;position: relative;">
                 <span style="font-size:18px;color:white;left: 0;background-color: transparent;float: left;margin-left: 20px;margin-top: 14px">工程列表</span>
                 <div style="width:100%;height: 80px;background: #2b334e;margin: 50px 0 0;position: absolute">
-                    <span style="font-size:13px;color:white;left: 0;background-color: transparent;float: left;margin-left: 20px;margin-top: 12px">场&nbsp &nbsp &nbsp &nbsp &nbsp馆:
+                    <span style="font-size:13px;color:white;left: 0;background-color: transparent;float: left;margin-left: 20px;margin-top: 12px">场&nbsp &nbsp &nbsp &nbsp馆:
                         <span style="color: #50E3C2;font-size: 24px;margin-left: 5px;padding: 0">18</span>
                         <span style="font-size:12px;color:white;left: 0;background-color: transparent;margin-left: 20px;margin-top: 12px">新建</span>
                         <span style="font-size:24px;color:#83B4FF;left: 0;background-color: transparent;margin-top: 12px;margin-left: 7px">06</span>
