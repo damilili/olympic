@@ -40,6 +40,13 @@
         }
 
         function initIndicator() {
+            var content = document.getElementById("content");
+            var leftmenu = document.getElementById("leftmenu");
+            var webcontent = document.getElementById("webcontent");
+            webcontent.style.left=leftmenu.offsetWidth;
+            webcontent.style.width=(content.offsetWidth-leftmenu.offsetWidth)+"px";
+            console.log('left=--='+content.offsetWidth);
+            webcontent.height=content.width-leftmenu.offsetHeight
             var button0 = document.getElementById("replaceitemid0");
             showPage(button0, "../page/sub_sub_overview.html")
         }
@@ -110,7 +117,7 @@
         </div>
     </div>
 
-    <div style="width: 83%;height: 100%;background: transparent;left: 17%;top: 0;position: absolute;visibility: visible;margin-left: 40px;overflow: hidden;border-radius: 5px">
+    <div id="webcontent" style="width: 83%;height: 100%;background: transparent;top: 0;position: absolute;visibility: visible;;overflow: hidden;border-radius: 5px">
         <iframe id="webframe" width="100%" height="100%" frameborder="no"
                 src=""
                 style="background-color: darkcyan;overflow: hidden;border-radius: 5px" scrolling="no">

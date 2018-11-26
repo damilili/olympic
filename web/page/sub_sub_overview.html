@@ -3,33 +3,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=9">
     <title>总览</title>
-
+    <link rel="stylesheet" type="text/css" href="../css/sub.css">
     <script>
+        function itemClick(elem, url) {
+            var key_line = document.getElementById("key_line");
+            var detail_view = document.getElementById("detail_view");
 
-        window.onload = function drawcard() {
-            var canvas = document.getElementById("canvas_overviewcard");
-            var cxt = canvas.getContext("2d");
-            cxt.fillStyle = "#fff";
-            cxt.strokeStyle = "#fff";
-            cxt.lineJoin = "round";
-            cxt.lineWidth = 20;
+            if (elem.id == "key_line") {
+                key_line.className = "subitemselect";
+                detail_view.className = "subitem";
+            }
+            if (elem.id == "detail_view") {
+                detail_view.className = "subitemselect";
+                key_line.className = "subitem";
+            }
+        }
 
-            cxt.moveTo(35, 15);
-            cxt.lineTo(canvas.width - 35, 15);
-            cxt.lineTo(canvas.width - 15, canvas.height - 15);
-            cxt.lineTo(15, canvas.height - 15);
-            cxt.closePath();
-            cxt.fill();
-
-
+        window.onload = function onloadfun() {
+            var key_line = document.getElementById("key_line");
+            itemClick(key_line, "../page/sub_sub_overview.html")
         }
     </script>
 </head>
 <body>
 <div>
 
-    <canvas id="canvas_overviewcard" style="width: 146px;height: 36px ;background: #5dffe7"></canvas>
-
+    <div><span id="key_line" onclick="itemClick(this,null)">关键路线进度</span> <span id="detail_view"
+                                                                                onclick="itemClick(this,null)">详细横道图</span>
+    </div>
 </div>
 </body>
 

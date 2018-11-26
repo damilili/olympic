@@ -40,6 +40,13 @@
         }
 
         function initIndicator() {
+            var content = document.getElementById("content");
+            var leftmenu = document.getElementById("leftmenu");
+            var webcontent = document.getElementById("webcontent");
+            webcontent.style.left=leftmenu.offsetWidth;
+            webcontent.style.width=(content.offsetWidth-leftmenu.offsetWidth)+"px";
+            console.log('left=--='+content.offsetWidth);
+            webcontent.height=content.width-leftmenu.offsetHeight
             var button0 = document.getElementById("replaceitemid0");
             showPage(button0, "../page/sub_sub_overview.html")
         }
@@ -54,7 +61,7 @@
             <div id="contentdes" style="width:100%;height: 131px;background: #2e3655;position: relative;">
                 <span style="font-size:18px;color:white;left: 0;background-color: transparent;float: left;margin-left: 20px;margin-top: 14px">工程列表</span>
                 <div style="width:100%;height: 80px;background: #2b334e;margin: 50px 0 0;position: absolute">
-                    <span style="font-size:13px;color:white;left: 0;background-color: transparent;float: left;margin-left: 20px;margin-top: 12px">场&nbsp &nbsp &nbsp &nbsp &nbsp馆:
+                    <span style="font-size:13px;color:white;left: 0;background-color: transparent;float: left;margin-left: 20px;margin-top: 12px">场&nbsp &nbsp &nbsp &nbsp馆:
                         <span style="color: #50E3C2;font-size: 24px;margin-left: 5px;padding: 0">18</span>
                         <span style="font-size:12px;color:white;left: 0;background-color: transparent;margin-left: 20px;margin-top: 12px">新建</span>
                         <span style="font-size:24px;color:#83B4FF;left: 0;background-color: transparent;margin-top: 12px;margin-left: 7px">06</span>
@@ -110,7 +117,7 @@
         </div>
     </div>
 
-    <div style="width: 83%;height: 100%;background: transparent;left: 17%;top: 0;position: absolute;visibility: visible;margin-left: 40px;overflow: hidden;border-radius: 5px">
+    <div id="webcontent" style="width: 83%;height: 100%;background: transparent;top: 0;position: absolute;visibility: visible;;overflow: hidden;border-radius: 5px">
         <iframe id="webframe" width="100%" height="100%" frameborder="no"
                 src=""
                 style="background-color: darkcyan;overflow: hidden;border-radius: 5px" scrolling="no">
